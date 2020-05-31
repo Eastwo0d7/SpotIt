@@ -23,15 +23,6 @@ function playGame(){
     var card1 = cards[Math.floor(Math.random() * cards.length)];
     var card2 = cards[Math.floor(Math.random() * cards.length)];
 
-    //   for (var i = 0; i < cards.length; i = i + 2) {
-    //     //   var card1 = cards[0];
-    //     //   var card2 = cards[1];
-    //     var card1 = "spot it/20200515_122120.jpg";
-    //     var card2 = "spot it/20200515_122116.jpg";
-    //       $("#card1").attr("src", card1);
-    //       $("#card2").attr("src", card2);
-    //   }
-
     if(card1 == card2){
         card1 = cards[Math.floor(Math.random() * cards.length)];
         card2 = cards[Math.floor(Math.random() * cards.length)];
@@ -39,9 +30,6 @@ function playGame(){
         $("#card1").attr("src", card1);
         $("#card2").attr("src", card2);
     }
-
-    // $("#card1").attr("src", card1);
-    // $("#card2").attr("src", card2);
 
   }
 
