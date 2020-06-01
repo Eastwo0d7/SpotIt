@@ -1,0 +1,8 @@
+#body {
+    background-color: rgba(34, 139,34, 0.5);  /* green with opacity */
+}
+
+#window {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
